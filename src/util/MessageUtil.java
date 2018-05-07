@@ -123,10 +123,10 @@ public class MessageUtil {
 		NewsMessage newsMessage=new NewsMessage();
 		
 		News news=new News();
-		news.setTitle("Ä½¿ÎÍø½éÉÜ");
+		news.setTitle("É½ÓìÍøÂç½éÉÜ");
 		news.setDescription("³õ´ÎÑ§Ï°¹«ÖÚºÅ¿ª·¢");
-		news.setPicUrl("http://i9mbd7.natappfree.cc/weixin/image/imooc.jpg");
-		news.setUrl("www.imooc.com");
+		news.setPicUrl("http://kxm2z5.natappfree.cc/weixin/image/shanyu.jpg");
+		news.setUrl("http://kxm2z5.natappfree.cc/weixin/");
 		
 		newsList.add(news);
 		
@@ -152,7 +152,9 @@ public class MessageUtil {
 	public static String initImageMessage(String toUserName,String fromUserName) {
 		String message=null;
 		Image image=new Image();
-		image.setMediaId("GHN5DBVcnKyhTj6xJ7b3VJs_DHdDb8CiEfEAvQa2G7ixgdnMTYMgHW3inhYqyxzK");
+//		image.setMediaId("GHN5DBVcnKyhTj6xJ7b3VJs_DHdDb8CiEfEAvQa2G7ixgdnMTYMgHW3inhYqyxzK");
+//		image.setMediaId("uhGHeH2VygNfzwkv9zfAc7MPnu_xWA0a1DEHak_LslmA6U6P4tWj541-5OCMnKKs");
+		image.setMediaId("IAUHcIqPOeashQx9XvEFWaCpYwFyfsOnYn2m0-cblA_MFYzeL3IlY_fP99EJnyWr");
 		ImageMessage imageMessage=new ImageMessage();
 		imageMessage.setFromUserName(toUserName);
 		imageMessage.setToUserName(fromUserName);
@@ -177,8 +179,8 @@ public class MessageUtil {
 		music.setThumbMediaId("daEQyRQGjknxDkaqYR6fAGgtrJE2ese4vPeffsyL4cgeThMc9uJpim0q_2_zPwCf");
 		music.setTitle("see you again");
 		music.setDescription("¸øÖÓÑô");
-		music.setMusicUrl("http://i9mbd7.natappfree.cc/weixin/resource/SeeYouAgain.mp3");
-		music.setHQMusicUrl("http://i9mbd7.natappfree.cc/weixin/resource/SeeYouAgain.mp3");
+		music.setMusicUrl("http://kxm2z5.natappfree.cc/weixin/resource/SeeYouAgain.mp3");
+		music.setHQMusicUrl("http://kxm2z5.natappfree.cc/weixin/resource/SeeYouAgain.mp3");
 		
 		MusicMessage musicMessage=new MusicMessage();
 		musicMessage.setFromUserName(toUserName);

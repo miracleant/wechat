@@ -188,18 +188,18 @@ public class WeixinUtil {
 	public static Menu initMenu() {
 		Menu menu=new Menu();
 		ClickButton clickButton=new ClickButton();
-		clickButton.setName("click菜单");
+		clickButton.setName("开始菜单");
 		clickButton.setType("click");
 		clickButton.setKey("11");
 		
 		
 		ViewButton viewButton=new ViewButton();
-		viewButton.setName("view菜单");
+		viewButton.setName("链接网址");
 		viewButton.setType("view");
-		viewButton.setUrl("http://www.imooc.com");
+		viewButton.setUrl("http://kxm2z5.natappfree.cc/weixin/");
 		
 		ClickButton button31=new ClickButton();
-		button31.setName("扫码时间");
+		button31.setName("扫码事件");
 		button31.setType("scancode_push");
 		button31.setKey("31");
 		
