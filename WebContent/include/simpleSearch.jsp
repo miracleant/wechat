@@ -2,9 +2,9 @@
     pageEncoding="UTF-8" isELIgnored="false"%>
  
 <div >
-    <a href="${contextPath}">
+    <%-- <a href="${contextPath}">
         <img id="simpleLogo" class="simpleLogo" src="img/site/simpleLogo.png">   
-    </a>
+    </a> --%>
      
     <form action="foresearch" method="post" >
     <div class="simpleSearchDiv pull-right">

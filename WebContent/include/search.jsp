@@ -2,7 +2,9 @@
 	pageEncoding="UTF-8" isELIgnored="false"%>
 
 	<a href="${contextPath}">
-		<img id="logo" src="img/site/logo.gif" class="logo">
+		<!-- <div margin-left="100px" position="relative" left="100px" height="100px" width="150px">
+			<img id="logo" src="img/site/shanyu.jpg"  height="100px" width="150px"  class="logo">
+		</div> -->
 	</a>
 	
 	<form action="foresearch" method="post" >	

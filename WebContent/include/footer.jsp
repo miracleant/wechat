@@ -12,7 +12,7 @@
             </a>
     </div>
     
-    <div id="footer_desc" class="footer_desc">
+    <!-- <div id="footer_desc" class="footer_desc">
             <div class="descColumn">
 			    <span class="descColumnTitle">购物指南</span>
 			    <a href="#nowhere" >免费注册</a> 
@@ -47,7 +47,7 @@
 			    <a href="#nowhere" ><img src="img/site/ma.png"></a> 
 			</div>
 			
-    </div>
+    </div> -->
     
     <div style="clear:both"></div>
     
@@ -65,7 +65,7 @@
 			<a href="#nowhere" >知识产权</a>
 			<a href="#nowhere" >  廉正举报	</a>
 		</div>
-		<div class="white_link" >
+		<!-- <div class="white_link" >
 			<a href="#nowhere" > 阿里巴巴集团</a><span class="slash">|</span>
 			<a href="#nowhere" > 淘宝网</a><span class="slash">|</span>
 			<a href="#nowhere" >天猫 </a><span class="slash">|</span>
@@ -89,8 +89,8 @@
 			<a href="#nowhere" >  钉钉	</a><span class="slash">|</span>
 			<a href="#nowhere" >  支付宝 		</a>
 		</div>
-	
-		<div class="license">
+ -->	
+		<!-- <div class="license">
 			<span>增值电信业务经营许可证： 浙B2-20110446</span>
 			<span>网络文化经营许可证：浙网文[2015]0295-065号</span>
 			<span>互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号 </span>
@@ -100,7 +100,7 @@
 		    	<img src="img/site/copyRight1.jpg">
 		    	<img src="img/site/copyRight2.jpg">
 		    </div>
-		</div>
+		</div> -->
     </div>
 </div>
 </body>

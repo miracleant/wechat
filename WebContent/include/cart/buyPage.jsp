@@ -4,7 +4,7 @@
   <form action="forecreateOrder" method="post">
   
 	<div class="buyFlow">
-		<img class="pull-left" src="img/site/simpleLogo.png">
+		<img class="pull-left" >
 		<img class="pull-right" src="img/site/buyflow.png">
 		<div style="clear:both"></div>
 	</div>

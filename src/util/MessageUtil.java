@@ -84,10 +84,10 @@ public class MessageUtil {
 	public static String menuText() {
 		StringBuffer sb=new StringBuffer();
 		sb.append("欢迎您的关注,请按照菜单提示操作:\n\n");
-		sb.append("1、介绍\n");
-		sb.append("2、慕课网\n");
-		sb.append("3、图片\n");
-		sb.append("4、听首歌\n");
+		sb.append("1、订单管理系统介绍\n");
+		sb.append("2、订单管理图文消息\n");
+		sb.append("3、订单管理系统二维码图片\n");
+		//sb.append("4、听首歌\n");
 		sb.append("\n回复？ 调出主菜单\n");
 		
 		return sb.toString();
@@ -95,14 +95,14 @@ public class MessageUtil {
 	
 	public static String firstMenu() {
 		StringBuffer sb=new StringBuffer();
-		sb.append("此为介绍");
+		sb.append("订单管理系统基于微信公众号开发，http://huayra.s1.natapp.cc/weixin/");
 		
 		return sb.toString();
 	}
 	
 	public static String secondMenu() {
 		StringBuffer sb=new StringBuffer();
-		sb.append("此为付费");
+		sb.append("订单管理体统图文消息");
 		
 		return sb.toString();
 	}
@@ -125,8 +125,8 @@ public class MessageUtil {
 		News news=new News();
 		news.setTitle("山屿网络介绍");
 		news.setDescription("初次学习公众号开发");
-		news.setPicUrl("http://kxm2z5.natappfree.cc/weixin/image/shanyu.jpg");
-		news.setUrl("http://kxm2z5.natappfree.cc/weixin/");
+		news.setPicUrl("http://huayra.s1.natapp.cc/weixin/image/shanyu.jpg");
+		news.setUrl("http://huayra.s1.natapp.cc/weixin/");
 		
 		newsList.add(news);
 		
@@ -152,9 +152,10 @@ public class MessageUtil {
 	public static String initImageMessage(String toUserName,String fromUserName) {
 		String message=null;
 		Image image=new Image();
-//		image.setMediaId("GHN5DBVcnKyhTj6xJ7b3VJs_DHdDb8CiEfEAvQa2G7ixgdnMTYMgHW3inhYqyxzK");
-//		image.setMediaId("uhGHeH2VygNfzwkv9zfAc7MPnu_xWA0a1DEHak_LslmA6U6P4tWj541-5OCMnKKs");
-		image.setMediaId("IAUHcIqPOeashQx9XvEFWaCpYwFyfsOnYn2m0-cblA_MFYzeL3IlY_fP99EJnyWr");
+		//shanyou.jpg
+		//image.setMediaId("2_r0p_Xo6T26qnbYonsD1C70smPxJXg3KYUFvzOAwftOjQ2LVDrq1TcglO2oMy2b");
+		//shanyu.png
+		image.setMediaId("x-YyzzqLMe4JmnsKjC0rWynSLz95EL1i_t0XWfCvBrAsCU0I6UFT8CNX1bFkLtrA");
 		ImageMessage imageMessage=new ImageMessage();
 		imageMessage.setFromUserName(toUserName);
 		imageMessage.setToUserName(fromUserName);
@@ -179,8 +180,8 @@ public class MessageUtil {
 		music.setThumbMediaId("daEQyRQGjknxDkaqYR6fAGgtrJE2ese4vPeffsyL4cgeThMc9uJpim0q_2_zPwCf");
 		music.setTitle("see you again");
 		music.setDescription("给钟阳");
-		music.setMusicUrl("http://kxm2z5.natappfree.cc/weixin/resource/SeeYouAgain.mp3");
-		music.setHQMusicUrl("http://kxm2z5.natappfree.cc/weixin/resource/SeeYouAgain.mp3");
+		music.setMusicUrl("http://huayra.s1.natapp.cc/weixin/resource/SeeYouAgain.mp3");
+		music.setHQMusicUrl("http://huayra.s1.natapp.cc/weixin/resource/SeeYouAgain.mp3");
 		
 		MusicMessage musicMessage=new MusicMessage();
 		musicMessage.setFromUserName(toUserName);

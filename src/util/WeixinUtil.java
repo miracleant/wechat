@@ -87,6 +87,7 @@ public class WeixinUtil {
 		String url=ACCESS_TOKEN_URL.replace("APPID", APPID).replace("APPSECRET", APPSECRET);
 		JSONObject jsonObject=doGetStr(url);
 		System.out.println(url);
+		//ip没有加入白名单时，会返回错误信息
 		System.out.println(jsonObject);
 		if(jsonObject!=null) {
 			token.setToken(jsonObject.getString("access_token"));
@@ -196,7 +197,7 @@ public class WeixinUtil {
 		ViewButton viewButton=new ViewButton();
 		viewButton.setName("链接网址");
 		viewButton.setType("view");
-		viewButton.setUrl("http://kxm2z5.natappfree.cc/weixin/");
+		viewButton.setUrl("http://huayra.s1.natapp.cc/weixin/");
 		
 		ClickButton button31=new ClickButton();
 		button31.setName("扫码事件");

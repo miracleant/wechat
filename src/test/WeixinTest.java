@@ -12,22 +12,22 @@ public class WeixinTest {
 		System.out.println("有效时间:"+token.getExpiresIn());
 		
 		//System.out.println("hello!");
-		
-//		String path="C:/webdev/Java/code/weixin/WebContent/image/shanyu.jpg";
+//		
+//		String path="C:/webdev/Java/code/weixin/WebContent/image/shanyu.png";
 //		String mediaId=WeixinUtil.upload(path, token.getToken(), "image");
 //		System.out.println("id:"+mediaId);
 //		String path="C:/webdev/Java/code/weixin/WebContent/image/thumb.jpg";
 //		String mediaId=WeixinUtil.upload(path, token.getToken(), "thumb");
 //		System.out.println("id:"+mediaId);
 		
-		String menu=JSONObject.fromObject(WeixinUtil.initMenu()).toString();
+/*		String menu=JSONObject.fromObject(WeixinUtil.initMenu()).toString();
 		int result=WeixinUtil.createMenu(token.getToken(), menu);
 		if(result==0) {
 			System.out.println("创建菜单成功");
 		}else {
 			System.out.println("错误码"+result);
 		}
-		
+		*/
 		JSONObject jsonObject=WeixinUtil.queryMenu(token.getToken());
 		System.out.println(jsonObject);
 		}catch(Exception e) {
@@ -37,4 +37,4 @@ public class WeixinTest {
 }
 
 //cd /webdev/java
-//natapp -authtoken 5b7346ee74e6613e
+//natapp -authtoken cdb9a23e99cb98a2

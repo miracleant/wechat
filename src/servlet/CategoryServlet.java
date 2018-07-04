@@ -118,6 +118,6 @@ public class CategoryServlet extends BaseBackServlet {
         request.setAttribute("thecs", cs);
         request.setAttribute("page", page);
          
-        return "admin/listCategory.jsp";
+        return "admin/listCategory.jsp";//ÏÔÊ¾Êä³ö
     }
 }
